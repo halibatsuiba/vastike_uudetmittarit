@@ -35,7 +35,9 @@ class hae_postit():
         else:
             return "NA"
     
-
+    '''
+    Huhhei
+    '''
     def get_current_timeframe(self):
         dayOfMonth = int(datetime.date.today().strftime("%d"))
         currentMonth = int(datetime.date.today().strftime("%m"))
