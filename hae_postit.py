@@ -21,6 +21,7 @@ class hae_postit():
     '''
     Etsi talon kirjainta otsikosta.
     Palauttaa "NA" jos ei loydy.
+    Diibadaaba.
     '''
     def etsi_talotunniste(self, subject):
         tunniste = decode_header(subject)[0][0]
